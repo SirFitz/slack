@@ -32,7 +32,7 @@ defmodule Slackex.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.8"},
-      {:exjsx, "~> 3.2.0", app: false},
+      {:exjsx, "~> 3.2.0", app: false, override: true},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev}
     ]
